@@ -48,6 +48,7 @@ h2 {
 }
 
 .card-img {
+  margin: 0 8rem;
   justify-content: center;
 }
 
@@ -74,14 +75,19 @@ h2 {
 
 @media only screen and (min-width: 25em) {
 
-  nav li {
-    display: inline-block;
-    text-align: center;
+  .card-img {
+    margin: 0 10rem;
+    justify-content: center;
   }
 
 }
 
 @media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
   .cards {
     margin: 0;
@@ -93,7 +99,7 @@ h2 {
   }
 
   .card {
-    margin: .75em .75em 0 .75em;
+    margin: .75em .75em 0;
     width: 100%;
     display: inline-block;
   }
@@ -106,7 +112,6 @@ h2 {
     font-size: 120%;
     line-height: 1.5;
   }
-
 
 }
 
