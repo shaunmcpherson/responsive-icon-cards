@@ -42,13 +42,13 @@ h2 {
 }
 
 .card {
-  margin: .7em;
+  margin: .7em .65em .7em;
   width: 100%;
   display: inline-block;
 }
 
 .card-img {
-  margin: 0 7.4rem;
+  margin: 0 7.375rem;
   justify-content: center;
 }
 
